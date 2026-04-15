@@ -111,7 +111,7 @@ AI-Powered-SpeakCoach/
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/sathishp100sms/ai-powered-speakcoach.git
+git clone https://github.com/SathishP100sms/AI-Powered-SpeakCoach.git
 cd speakcoach-ai
 ```
 
