@@ -57,11 +57,11 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],      # tighten to your frontend domain in production
+    allow_origins=["*"],      
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
-    expose_headers=["X-User-Text", "X-AI-Text", "X-Session-Id"],  # needed by frontend
+    expose_headers=["X-User-Text", "X-AI-Text", "X-Session-Id"],
 )
 
 
