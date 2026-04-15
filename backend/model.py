@@ -114,10 +114,10 @@ class VoiceAssistant:
 
         segments, info = VoiceAssistant._whisper.transcribe(
             samples,
-            beam_size=3,          # beam 3 is a good speed/accuracy trade-off for tiny
+            beam_size=3,         
             temperature=0.0,
-            vad_filter=True,      # skip silent segments → faster + cleaner
-            language="en",        # lock to English; removes language-detect overhead
+            vad_filter=True,     
+            language="en",       
         )
 
         text = " ".join(seg.text.strip() for seg in segments).strip()
